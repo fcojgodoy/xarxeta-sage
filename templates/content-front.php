@@ -27,14 +27,6 @@
         <section>
           <div class="row">
             <div class="col-xs-12">
-              <div class="bg bg-two"></div>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <div class="row">
-            <div class="col-xs-12">
               <h2 class="text-center">Els nostres horts</h2>
             </div>
           </div>

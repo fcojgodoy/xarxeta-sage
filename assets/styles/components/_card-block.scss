@@ -52,6 +52,7 @@
   display: block;
   background-repeat: no-repeat;
   background-position: center top;
+  min-height: 380px;
   margin-bottom: 40px;
   &:hover {
     transition: background-color .4s cubic-bezier(.785,.135,.15,.86);
