@@ -1,0 +1,11 @@
+.icon-botanicals4 {
+  font-size: 100px;
+  text-align: center;
+  margin: 0px auto 20px;
+  display: block;
+}
+@media (max-width: $screen-xs-max) {
+  .icon-botanicals4 {
+    font-size:60px;
+  }
+}

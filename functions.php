@@ -10,12 +10,18 @@
  * @link https://github.com/roots/sage/pull/1042
  */
 $sage_includes = [
-  'lib/assets.php',    // Scripts and stylesheets
-  'lib/extras.php',    // Custom functions
-  'lib/setup.php',     // Theme setup
-  'lib/titles.php',    // Page titles
-  'lib/wrapper.php',   // Theme wrapper class
-  'lib/customizer.php' // Theme customizer
+  'lib/assets.php',     // Scripts and stylesheets
+  'lib/extras.php',     // Custom functions
+  'lib/setup.php',      // Theme setup
+  'lib/titles.php',     // Page titles
+  'lib/wrapper.php',    // Theme wrapper class
+  'lib/customizer.php', // Theme customizer
+  'lib/metaboxex.php',   // Meta boxex
+  'lib/wp_bootstrap_navwalker.php', // Register Custom Navigation Walker. Installed with bower but bower.json is wrong
+  'lib/add_image_size.php',
+  'lib/jetpack_logo.php',
+  'lib/jetpack_remove_css.php'
+
 ];
 
 foreach ($sage_includes as $file) {

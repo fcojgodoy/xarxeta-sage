@@ -7,7 +7,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "3.3.6"
+    "bootstrap-sass": "3.3.6",
+    "headroom.js": "https://npmcdn.com/headroom.js/bower.zip#^0.9.3",
+    "wp-bootstrap-navwalker": "^2.0.4"
   },
   "overrides": {
     "bootstrap-sass": {

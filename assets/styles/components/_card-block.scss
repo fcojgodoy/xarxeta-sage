@@ -1,0 +1,88 @@
+/*
+ * Card block
+ *
+ * Content: link with background-image and a text block ('h4 > a' and 'h5 > a')
+ */
+
+/* Colors */
+.color-random-content > div:nth-child(1) {
+  .card-block {
+    $bg-color: #F0715E;
+    background-color: $bg-color;
+    background-image:  url(../images/botanicals8.png);
+    &:hover {
+      background-color: ($bg-color - 20%);
+    }
+  }
+}
+
+.color-random-content > div:nth-child(2) {
+  .card-block {
+    $bg-color: #75babd;
+    background-color: $bg-color;
+    background-image:  url(../images/botanicals2.png);
+    &:hover {
+      background-color: ($bg-color - 20%);
+    }
+  }
+}
+.color-random-content > div:nth-child(3) {
+  .card-block {
+    $bg-color: #fdde5a;
+    background-color: $bg-color;
+    background-image:  url(../images/botanicals9.png);
+    &:hover {
+      background-color: ($bg-color - 20%);
+    }
+  }
+}
+.color-random-content > div:nth-child(4) {
+  .card-block {
+    $bg-color: #bdae75;
+    background-color: $bg-color;
+    background-image:  url(../images/botanicals12.png);
+    &:hover {
+      background-color: ($bg-color - 20%);
+    }
+  }
+}
+
+/* Main styles */
+.card-block {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-bottom: 40px;
+  &:hover {
+    transition: background-color .4s cubic-bezier(.785,.135,.15,.86);
+  }
+  // Card image
+  .card-image {
+    display: block;
+    min-height: 250px;
+  }
+
+  // Card text
+  .card-text {
+    background-color: inherit;
+    > * {
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: center;
+    }
+    a {
+      color: #000;
+      display: block;
+      padding: 2px 30px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    h4 a {
+      padding-top: 15px;
+    }
+    h5 a {
+      padding-bottom: 20px;
+    }
+  }
+}

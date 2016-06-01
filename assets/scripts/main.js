@@ -12,6 +12,21 @@
 
 (function($) {
 
+  var header = document.querySelector("#header");
+
+  if(window.location.hash) {
+    header.classList.add("headroom--unpinned");
+  }
+
+  var headroom = new Headroom(header, {
+    tolerance: {
+      down : 10,
+      up : 10
+    },
+    offset : 205
+  });
+
+
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Sage = {
@@ -22,6 +37,7 @@
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
+          headroom.init();
       }
     },
     // Home page

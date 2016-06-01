@@ -18,14 +18,11 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/header');
     ?>
-
     <div class="wrap container" role="document">
       <div class="content row">
         <?php if (Setup\display_sidebar()) : ?>
-          <aside class="sidebar">
-            <div data-spy="affix" data-offset-top="0">
-              <?php include Wrapper\sidebar_path(); ?>
-            </div>
+          <aside class="sidebar" data-spy="affix" data-offset-top="0">
+            <?php include Wrapper\sidebar_path(); ?>
           </aside><!-- /.sidebar -->
         <?php endif; ?>
         <main class="main">
@@ -33,7 +30,6 @@ use Roots\Sage\Wrapper;
         </main><!-- /.main -->
       </div><!-- /.content -->
     </div><!-- /.wrap -->
-
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');

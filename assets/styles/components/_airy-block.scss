@@ -1,0 +1,17 @@
+/*
+ * Element: Airy Block
+ */
+.airy-block {
+  h2 {
+    margin-bottom: 40px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  @media (min-width: $screen-md-min) {
+    padding: 50px 0;
+    *:last-child {
+      margin-bottom: 50px;
+    }
+  }
+}

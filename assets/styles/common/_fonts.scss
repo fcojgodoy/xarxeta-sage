@@ -1,0 +1,61 @@
+/*
+ * Cassannet font
+ */
+@font-face {
+  font-family: "Cassannet";
+  src:url("../fonts/Cassannet.eot");
+  src:url("../fonts/Cassannet.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Cassannet.woff") format("woff"),
+    url("../fonts/Cassannet.ttf") format("truetype"),
+    url("../fonts/Cassannet.svg#Cassannet") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*
+ * Circular Book font
+ */
+@font-face {
+  font-family: "Circular-book";
+  src:url("../fonts/circular-book.eot");
+  src:url("../fonts/circular-book.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/circular-book.woff") format("woff"),
+    url("../fonts/circular-book.ttf") format("truetype"),
+    url("../fonts/circular-book.svg#Circular-book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*
+ * Xarxeta Iconfont
+ */
+@font-face {
+    font-family: 'xarxeta-iconfont';
+    src:
+        url('../fonts/xarxeta-iconfont.ttf?p7dz0j') format('truetype'),
+        url('../fonts/xarxeta-iconfont.woff?p7dz0j') format('woff'),
+        url('../fonts/xarxeta-iconfont.svg?p7dz0j#xarxeta-iconfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'xarxeta-iconfont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-botanicals4:before {
+    content: "\e900";
+}

@@ -1,1 +1,10 @@
-
+/* Align vertically a column */
+[class^=v-align] {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: $screen-sm-max) {
+  .v-align-md {
+      display: block;
+  }
+}

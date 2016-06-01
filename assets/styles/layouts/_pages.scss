@@ -1,0 +1,17 @@
+.page {
+  .content {
+    p {
+      text-align: justify;
+    }
+  }
+  .wp-post-image {
+    @extend .img-responsive;
+  }
+}
+
+/*
+ * Rows
+ */
+section {
+  margin-bottom: 50px;
+}

@@ -6,14 +6,22 @@
 // endbower
 
 @import "common/global";
+@import "common/fonts";
+@import "common/type";
 @import "components/buttons";
 @import "components/comments";
 @import "components/forms";
 @import "components/grid";
 @import "components/wp-classes";
+@import "components/headroom";
+@import "components/contact-form";
+@import "components/airy-block";
+@import "components/icon-botanicals";
+@import "components/card-block";
 @import "layouts/header";
 @import "layouts/sidebar";
 @import "layouts/footer";
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+@import "shame";

@@ -1,0 +1,21 @@
+.headroom--pinned {
+  transform: translateY(0);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+.headroom {
+  transition: transform .25s ease-in-out;
+  will-change: transform;
+}
+.headroom + div {
+  margin-top: 50px;
+}
+
+.header--fixed {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  left: 0;
+  top: 0;
+}
