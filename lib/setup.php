@@ -88,14 +88,6 @@ function widgets_init() {
     'after_title'   => '</h4>'
   ]);
   register_sidebar([
-    'name'          => __('Footer 4', 'sage'),
-    'id'            => 'sidebar-footer-4',
-    'before_widget' => '<section class="widget %1$s %2$s">',
-    'after_widget'  => '</section>',
-    'before_title'  => '<h4>',
-    'after_title'   => '</h4>'
-  ]);
-  register_sidebar([
     'name'          => __('Page', 'sage'),
     'id'            => 'sidebar-page',
     'before_widget' => '<section class="widget %1$s %2$s">',

@@ -18,7 +18,7 @@
 
               </div>
               <div class="col-md-6">
-                <a href="/que-es-la-xarxeta" type="button" class="btn btn-botanic btn-lg btn-block">coneix-nos millor</a>
+                <a href="/xarxeta/que-es-la-xarxeta" type="button" class="btn btn-botanic btn-lg btn-block">coneix-nos millor</a>
               </div>
             </div>
           </div>
@@ -73,7 +73,6 @@
                 wp_reset_postdata();
               ?>
 
-            </div>
           </div>
         </section>
 
@@ -112,12 +111,12 @@
                 Transmetem el coneixement i la praxis agroecològica als demés; prenem les decisions de forma directa i assembleària; i divulguem l'agroecologica i els seus principis arreu.
               </p>
               <br>
-              <a href="/que-es-la-xarxeta" type="button" class="btn btn-botanic btn-lg btn-block">Més informació?</a>
+              <a href="/xarxeta/criteris-socials-i-economics" type="button" class="btn btn-botanic btn-lg btn-block">Més informació?</a>
             </div>
           </div>
         </section>
 
-        <section>
+        <!-- <section>
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
               <h2 class="text-center">Etem en contacte</h2>
@@ -153,7 +152,7 @@
             </div>
             </div>
           </div>
-        </section>
+        </section> -->
 
         <section>
           <?php the_content(); ?>

@@ -1,0 +1,1 @@
+- Acabado primara fase del bloque 'card'. Puedo hacer los estilos del navbar por ejemplo.

@@ -38,7 +38,7 @@
 			// Description metabox - text
 			$description = rwmb_meta( 'description' );
 	    if ( !empty( $description ) ) {
-							echo '<h2>' . __('Description', 'xarxeta-sarge') . '</h2>';
+							echo '<h3>' . __('Description', 'xarxeta-sarge') . '</h3>';
 	            echo $description;
 	        }
 		 ?>
@@ -47,7 +47,7 @@
 			 // Products metabox - taxonomy
 			 $terms = rwmb_meta( 'products' );
 	     if ( !empty( $terms ) ) {
-		 			$content = '<h2>' . __('Products', 'xarxeta-sarge') . '</h2>';
+		 			$content = '<h3>' . __('Products', 'xarxeta-sarge') . '</h3>';
          	$content .= '<ul>';
 	        	foreach ( $terms as $term ) {
 	          		$content .= sprintf(
@@ -66,7 +66,7 @@
 				// Sales months metabox - text
 				$sales_months = rwmb_meta( 'sales-months' );
 				if ( !empty( $sales_months ) ) {
-								echo '<h2>' . __('Sales months', 'xarxeta-sarge') . '</h2>';
+								echo '<h3>' . __('Sales months', 'xarxeta-sarge') . '</h3>';
 								echo $sales_months;
 						}
 			 ?>
@@ -75,17 +75,17 @@
 				// Timetable metabox - text
 				$timetalbe = rwmb_meta( 'timetable' );
 				if ( !empty( $timetalbe ) ) {
-					echo '<h2>' . __('Timetable', 'xarxeta-sarge') . '</h2>';
+					echo '<h3>' . __('Timetable', 'xarxeta-sarge') . '</h3>';
 					echo $timetalbe;
 						}
 			 ?>
 
-			 <?php echo '<h2>' . __('Contact', 'xarxeta-sarge') . '</h2>' ?>
+			 <?php echo '<h3>' . __('Contact', 'xarxeta-sarge') . '</h3>' ?>
 			 <?php
 				 	// Telephone metabox - number
 					$telephone = rwmb_meta( 'telephone-1' );
 					if ( !empty( $telephone ) ) {
-						echo '<h3>' . __('Telephone', 'xarxeta-sarge') . '</h3>';
+						echo '<h4>' . __('Telephone', 'xarxeta-sarge') . '</h4>';
 				    echo "<a href='tel:{$telephone}'>{$telephone}</a>";
 					}
 			  ?>
@@ -94,7 +94,7 @@
 					// URL metabox - text
 					$url = rwmb_meta( 'url' );
 				  if ( !empty( $url ) ) {
-						echo '<h3>' . __('Web page', 'xarxeta-sarge') . '</h3>';
+						echo '<h4>' . __('Web page', 'xarxeta-sarge') . '</h4>';
 				  	echo "<a href='{$url}' target='_blanck'>{$url}</a>";
 				  }
 				 ?>
@@ -103,7 +103,7 @@
 					 // Email metabox - text
 					 $email = rwmb_meta( 'email' );
 					 if ( !empty( $email ) ) {
-						 			 echo '<h3>' . __('Email', 'xarxeta-sarge') . '</h3>';
+						 			 echo '<h4>' . __('Email', 'xarxeta-sarge') . '</h4>';
 									 echo "<a href='mailto:{$email}' target='_blanck'>{$email}</a>";
 							 }
 					?>
@@ -122,7 +122,7 @@
 				    );
 						$map = rwmb_meta ( 'map' );
 						if ( !empty( $map ) ) {
-							echo '<h3>' . __('Location', 'xarxeta-sarge') . '</h3>';
+							echo '<h4>' . __('Location', 'xarxeta-sarge') . '</h4>';
 							echo rwmb_meta( 'map', $args );
 						}
 					 ?>
