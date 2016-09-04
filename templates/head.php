@@ -2,6 +2,6 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script type="text/javascript" src="https://npmcdn.com/headroom.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/headroom.js"></script>
   <?php wp_head(); ?>
 </head>
